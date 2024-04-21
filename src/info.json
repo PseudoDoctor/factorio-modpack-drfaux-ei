@@ -1,0 +1,14 @@
+{
+    "name": "modpack-drfaux-ei",
+    "version": "@@VERSION@@",
+    "title": "Modpack for Exotic Industries for Dr Faux",
+    "author": "Dr Faux",
+    "factorio_version": "1.1.107",
+    "description": "Factorio Modpack for Exotic Industries for the convenience of Dr Faux",
+    "dependencies": [
+        "base == 1.1.107",
+        "exotic-industries == 0.6.4",
+        "?dad-jokes",
+        "!HappyFeet"
+    ]
+}
