@@ -33,6 +33,24 @@ mod-settings.dat
 }
 ```
 ## Windows
+```
+>cd $env:APPDATA\Factorio
+C:\Users\onine\AppData\Roaming\Factorio
+> ls | select Name,mode
+
+Name                  Mode
+----                  ----
+config                d----
+mods                  d----
+saves                 d----
+script-output         d----
+temp                  d----
+blueprint-storage.dat -a---
+crop-cache.dat        -a---
+factorio-current.log  -a---
+factorio-previous.log -a---
+player-data.json      -a---
+```
 ## Mac
 ```log
 ~/Library/Application Support/factorio
